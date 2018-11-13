@@ -1,0 +1,579 @@
+.cell, .cellDark, .cellOver, .cellOverDark,
+.cellSelected, .cellSelectedDark, .cellSelectedOver, .cellSelectedOverDark, .buttonDetails {
+    cursor: pointer;
+}
+
+.selectItemControl .selectItemText, .pointer {
+    cursor: pointer;
+}
+
+
+.logo-container {
+    text-align: left;
+}
+
+.logo-container img {
+    max-height: 100%;
+    min-height: 30px;
+}
+
+/*.listTable tbody td, .listTable .selectItemText, .listTable .selectItemTextFocused, .listTable .textItem {*/
+/*font-size: 12px;*/
+/*}*/
+
+/*.listTable td.pickListCell, .listTable td.pickListCellDark,*/
+/*.listTable td.pickListCellSelected, .listTable td.pickListCellSelectedDark,*/
+/*.listTable td.pickListCellSelectedOver, .listTable td.pickListCellSelectedOverDark {*/
+/*font-size: 11px;*/
+/*}*/
+
+/* scListGridStyleA - SmartClient list grid style. Usage: baseStyle: "scListGridStyleA" */
+.scListGridStyleA {
+    font-family:Verdana,Bitstream Vera Sans,sans-serif; font-size:11px;
+    color:black;
+    border-bottom:1px solid #c0c0c0; border-right:1px solid #c0c0c0;
+    background-color:#ffffff;
+}
+.scListGridStyleADark {
+    font-family:Verdana,Bitstream Vera Sans,sans-serif; font-size:11px;
+    color:black;
+    border-bottom:1px solid #c0c0c0; border-right:1px solid #c0c0c0;
+    background-color:#f0f0e8;
+}
+.scListGridStyleAOver,
+.scListGridStyleAOverDark {
+    font-family:Verdana,Bitstream Vera Sans,sans-serif; font-size:11px;
+    color:black;
+    border-bottom:1px solid #c0c0c0; border-right:1px solid #c0c0c0;
+    background-color:#ffffc0;
+}
+.scListGridStyleASelected,
+.scListGridStyleASelectedDark {
+    font-family:Verdana,Bitstream Vera Sans,sans-serif; font-size:11px;
+    color:black;
+    border-bottom:1px solid #c0c0ff; border-right:1px solid #c0c0ff;
+    background-color:#c0c0ff;
+}
+.scListGridStyleASelectedOver,
+.scListGridStyleASelectedOverDark {
+    font-family:Verdana,Bitstream Vera Sans,sans-serif; font-size:11px;
+    color:black;
+    border-bottom:1px solid #a0a0a0; border-right:1px solid #a0a0a0;
+    background-color:#e0e0ff;
+}
+.scListGridStyleADisabled {
+    font-family:Verdana,Bitstream Vera Sans,sans-serif; font-size:11px;
+    color:#808080;
+    border-bottom:1px solid #ffffff; border-right:1px solid #ffffff;
+    background-color:#ffffff;
+}
+.scListGridStyleADisabledDark {
+    font-family:Verdana,Bitstream Vera Sans,sans-serif; font-size:11px;
+    color:#808080;
+    border-bottom:1px solid #f0f0e8; border-right:1px solid #f0f0e8;
+    background-color:#f0f0e8;
+}
+
+.formTitle,
+.formTitleFocused,
+.formTitleError,
+.formTitleDisabled,
+.textItemFocused,
+.textItemError,
+.textItemDisabled,
+.textItem,
+.selectItemTextFocused,
+.selectItemText,
+.selectItemTextDisabled,
+.selectItemTextError,
+.pickListCell,
+.pickListCellOver,
+.pickListCellSelected,
+.pickListCellSelectedOver,
+.pickListCellDark,
+.pickListCellSelectedDark,
+.pickListCellSelectedOverDark,
+.pickListCellOverDark,
+.formCell,
+.tallCell,
+.tallCellDark,
+.tallCellSelected,
+.tallCellSelectedDark,
+.tallCellOver,
+.tallCellSelectedOver,
+.tallCellSelectedOverDark,
+.tallCellOverDark,
+.tabButtonTopSelected,
+.tabButtonTopSelectedOver,
+.tabButtonTopSelectedDown,
+.tabButtonTop,
+.tabButtonTopOver,
+.tabButtonTopDown,
+.staticTextItemDisabled,
+.staticTextItemDisabledFocused,
+.selectItemControl,
+.selectItemTextHint,
+.linkItemDisabled,
+.comboBoxItemPendingText,
+.staticTextItem {
+    font-size: 12px;
+}
+
+.comboBoxItemPendingText {
+    color: #000000;
+}
+
+.tabButtonTopSelected,
+.tabButtonTopSelectedOver {
+    background: none #ffffff;
+}
+
+.formTitleError,
+.selectItemControlError {
+    font-weight: normal;
+}
+
+.buttonSave,
+.buttonSaveOver,
+.buttonSaveFocused,
+.buttonSaveFocusedOver,
+.buttonSaveDown,
+.buttonSaveFocusedDown,
+.buttonSaveSelected,
+.buttonSaveSelectedFocused,
+.buttonSaveSelectedDown,
+.buttonSaveSelectedFocusedDown,
+.buttonSaveSelectedOver,
+.buttonSaveSelectedFocusedOver,
+.buttonSaveDisabled,
+.buttonSaveSelectedDisabled {
+    color: #ffffff;
+    background: #184381;
+}
+
+.buttonSave:hover,
+.buttonSaveOver:hover{
+    background: #2161BA;
+}
+
+.buttonCancel,
+.buttonCancelOver,
+.buttonCancelFocused,
+.buttonCancelFocusedOver,
+.buttonCancelDown,
+.buttonCancelFocusedDown,
+.buttonCancelSelected,
+.buttonCancelSelectedFocused,
+.buttonCancelSelectedDown,
+.buttonCancelSelectedFocusedDown,
+.buttonCancelSelectedOver,
+.buttonCancelSelectedFocusedOver,
+.buttonCancelDisabled,
+.buttonCancelSelectedDisabled {
+    color: #ffffff;
+    background: #666666;
+}
+
+.buttonCancel:hover,
+.buttonCancelOver:hover{
+    background: #545454;
+}
+
+
+.buttonDelete,
+.buttonDeleteOver,
+.buttonDeleteFocused,
+.buttonDeleteFocusedOver,
+.buttonDeleteDown,
+.buttonDeleteFocusedDown,
+.buttonDeleteSelected,
+.buttonDeleteSelectedFocused,
+.buttonDeleteSelectedDown,
+.buttonDeleteSelectedFocusedDown,
+.buttonDeleteSelectedOver,
+.buttonDeleteSelectedFocusedOver,
+.buttonDeleteDisabled,
+.buttonDeleteSelectedDisabled {
+    color: #ffffff;
+    background: #E9594D;
+}
+
+.buttonDelete:hover,
+.buttonDeleteOver:hover{
+    background: #E23124;
+}
+
+
+.buttonDetails,
+.buttonDetailsOver,
+.buttonDetailsFocused,
+.buttonDetailsFocusedOver,
+.buttonDetailsDown,
+.buttonDetailsFocusedDown,
+.buttonDetailsSelected,
+.buttonDetailsSelectedFocused,
+.buttonDetailsSelectedDown,
+.buttonDetailsSelectedFocusedDown,
+.buttonDetailsSelectedOver,
+.buttonDetailsSelectedFocusedOver,
+.buttonDetailsDisabled,
+.buttonDetailsSelectedDisabled{
+    color: #1987E2;
+    text-decoration: underline;
+    background: none;
+}
+
+.smallRedDollarIcon {
+    background-color: #FF0000; width: 16px; height: 16px;
+    -webkit-mask-image: url('../img/US-dollar-icon_16x16px.png');
+}
+
+.smallRedPlusIcon {
+    background-color: #FF0000; width: 16px; height: 16px;
+    -webkit-mask-image: url('../img/add-new_16x16px.png');
+}
+
+.labelAnchor {
+    margin-left: -3px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.groupLabel {
+    color: #003168;
+    text-transform: uppercase;
+}
+
+b {
+    font-weight: normal;
+}
+
+.modalMaskWhiteBackground {
+    background-color: #ffffff;
+}
+
+.loginFailureItem {
+    background: url('../isomorphic/skins/EnterpriseBlue/images/actions/exclamation.png') no-repeat;
+    margin-left: 60px;
+}
+
+.dragTrackerStyle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+    background: #184381;
+    padding: 5px;
+}
+
+.emptyMessage {
+    padding: 0;
+}
+
+.successMessage {
+    background: #F3F9F4;
+    color: #3D3D3D;
+    border: 1px #93B399 solid;
+}
+
+.skip-mouse-events {
+    pointer-events: none;
+}
+
+*:focus {
+    outline: 0;
+}
+.redLine, .redLineDark {
+    background: #ff6666;
+}
+.orangeLine, .orangeLineDark {
+    background: #ffc967;
+}
+.attentionLine, .attentionLineDark {
+    background: #ffb282;
+}
+
+.linkItem,
+.linkItemDisabled,
+.linkItemFocused{
+    color: #000000;
+    font-size: 13px;
+}
+
+.linkItem a,
+.linkItemFocused a,
+.selectItemTextHint {
+    color: #000000;
+}
+
+.groupBorder {
+    border:1px solid #D8D8D8;
+    text-align: center;
+    margin: 7px 0 0 0;
+    padding: 50px;
+}
+
+.textItemDisabled,
+.formTitleDisabled,
+.selectItemTextDisabled,
+.staticTextItemDisabled,
+.staticTextItemDisabledFocused {
+    color: #3B3B3B;
+}
+
+.textItemDisabled,
+.selectItemTextDisabled {
+    color: #000000;
+    background: #EFEFEF;
+}
+
+.menuButton,
+.menuButtonOver,
+.menuButtonDown {
+    font-size: 14px;
+}
+
+.menuButtonOverOver,
+.menuButtonOverDown {
+    font-size: 14px;
+    background-color: #b4d4fd;
+    background-image: url("./images/cssButton/button_Over_stretch.png");
+    background-repeat: repeat-x;
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgi…3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+    background-size: 100%;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f0f8ff), color-stop(52%, #deeffc), color-stop(57%, #c9e3fd), color-stop(100%, #b7d7f5));
+    background-image: -moz-linear-gradient(top, #f0f8ff 0%, #deeffc 52%, #c9e3fd 57%, #b7d7f5 100%);
+    background-image: -webkit-linear-gradient(top, #f0f8ff 0%, #deeffc 52%, #c9e3fd 57%, #b7d7f5 100%);
+    background-image: linear-gradient(to bottom, #f0f8ff 0%, #deeffc 52%, #c9e3fd 57%, #b7d7f5 100%);
+    border: 1px solid #ababab;
+}
+
+.buttonLinkItem {
+    font-size: 13px;
+    padding: 0 0 5px 5px;
+    color: #1987E2;
+}
+
+.buttonLinkItemOver,
+.buttonLinkItemDown {
+    font-size: 13px;
+    padding: 0 0 5px 5px;
+    color: #000000;
+}
+
+h2 {
+    margin: 2px 5px 2px 5px;
+}
+
+h1.headerTitle {
+    color: #1F0F6B;
+    font-size: 16px;
+    font-style: italic;
+    margin: 4px 0 0 0;
+}
+
+.user,
+.userOver {
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0 0 5px 0;
+}
+
+.none {
+    display: none;
+}
+
+.noneDisabled {
+    display: none;
+}
+
+.error-text, .red-text, .red-textDisabled, .red-textFocused, .red-textError, .red-textRTL {
+    color: #ff6666;
+}
+
+.ok-text {
+    color: #079b00;
+}
+
+.warning-text {
+    color: #9a9b1d;
+}
+
+.indication {
+    padding: 7px 0 0 5px;
+    font-size: 12px;
+}
+
+#loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -32px;
+    margin-left: -32px;
+    width: 32px;
+    height: 32px;
+}
+
+.moneyItem .moneyAmount,
+.moneyItemFocused .moneyAmount {
+    border-left: none;
+    padding-left: 3px;
+}
+
+.moneyItemFocused .moneyAmount {
+    border-top: 1px solid #587aad;
+    border-bottom: 1px solid #c0d8ec;
+    border-right: 1px solid #b8cfef;
+}
+
+.moneyItem .currencySelector,
+.moneyItemFocused .currencySelector {
+    border-right: medium none;
+}
+
+.moneyItem .currencySelector {
+    border-top: 1px solid #ababab;
+    border-left: 1px solid #ababab;
+    border-bottom: 1px solid #dedede;
+}
+
+.moneyItem .currencySelector.selectItemTextFocused,
+.moneyItemFocused .currencySelector
+{
+    border-top: 1px solid #587aad;
+    border-left: 1px solid #b3c6db;
+    border-bottom: 1px solid #c0d8ec;
+}
+
+.attentionTab, .attentionSection {
+    background: #ff6666;
+}
+
+.textItemFocused,
+.selectItemTextFocused,
+.comboBoxItemPendingText,
+.formCellFocused > .textItem, /* fix for datetime fields */
+.moneyItemFocused
+{
+    border: 1px #000000 solid;
+}
+
+.selectItemTextFocused {
+    border-right: 0;
+}
+
+.cellRedLine,
+.cellRedLineSelected,
+.cellRedLineSelectedOver {
+    background: #ff6666;
+    border-top: 1px #e55b5b solid;
+    border-bottom: 1px #e55b5b solid;
+}
+
+.cellRedLineDark,
+.cellRedLineSelectedOverDark,
+.cellRedLineSelectedDark {
+    background: #ff8484;
+    border-top: 1px #e55b5b solid;
+    border-bottom: 1px #e55b5b solid;
+}
+
+.cellRedLineOver,
+.cellRedLineOverDark,
+.cellOrangeLineOver,
+.cellOrangeLineOverDark {
+    cursor: pointer;
+    color: #000000;
+    background-color:#c4ddfd;background-image:url("./images/Menu/menu_rollover.png");background-repeat:repeat-x;background-attachment:scroll;background-image:url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIxJSIgc3RvcC1jb2xvcj0iI2M0ZGRmZCIvPjxzdG9wIG9mZnNldD0iNSUiIHN0b3AtY29sb3I9IiNjNGRkZmQiLz48c3RvcCBvZmZzZXQ9IjUlIiBzdG9wLWNvbG9yPSIjZTVmOGZmIi8+PHN0b3Agb2Zmc2V0PSI5NSUiIHN0b3AtY29sb3I9IiNkMWU3ZmYiLz48c3RvcCBvZmZzZXQ9Ijk1JSIgc3RvcC1jb2xvcj0iI2M0ZGRmZCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2M0ZGRmZCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');background-size:100%;background-image:-webkit-gradient(linear,50% 0,50% 100%,color-stop(1%,#c4ddfd),color-stop(5%,#c4ddfd),color-stop(5%,#e5f8ff),color-stop(95%,#d1e7ff),color-stop(95%,#c4ddfd),color-stop(100%,#c4ddfd));background-image:-moz-linear-gradient(top,#c4ddfd 1%,#c4ddfd 5%,#e5f8ff 5%,#d1e7ff 95%,#c4ddfd 95%,#c4ddfd 100%);background-image:-webkit-linear-gradient(top,#c4ddfd 1%,#c4ddfd 5%,#e5f8ff 5%,#d1e7ff 95%,#c4ddfd 95%,#c4ddfd 100%);background-image:linear-gradient(to bottom,#c4ddfd 1%,#c4ddfd 5%,#e5f8ff 5%,#d1e7ff 95%,#c4ddfd 95%,#c4ddfd 100%)
+}
+
+.cellOrangeLine,
+.cellOrangeLineSelected,
+.cellOrangeLineSelectedOver {
+    color: #000000;
+    background: #ffc967;
+    border-top: 1px #e5b45c solid;
+    border-bottom: 1px #e5b45c solid;
+}
+
+.cellOrangeLineDark,
+.cellOrangeLineSelectedDark,
+.cellOrangeLineSelectedOverDark {
+    color: #000000;
+    background: #ffd994;
+    border-top: 1px #e5b45c solid;
+    border-bottom: 1px #e5b45c solid;
+}
+
+
+#error-new-version-detected {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 1em;
+    right: 1em;
+    height: 5.5em;
+
+    background-color: #ffffff;
+    opacity: 0.9;
+    z-index: 999999;
+    pointer-events: none;
+    transition: 1.4s;
+    transition-timing-function: ease-in;
+}
+
+#error-new-version-detected div {
+    position: absolute;
+    top: 0.3em;
+    left: 0.3em;
+    right: 0.3em;
+    bottom: 0.3em;
+
+    text-align: center;
+    line-height: 4.6em;
+
+    background-color: #7f8fab;
+    border-radius: 0.5em;
+    pointer-events: none;
+}
+
+#error-new-version-detected div span, #error-new-version-detected div a {
+    font-family: Arial, serif;
+    color: #ffffff;
+    text-shadow: 1px 1px #545454;
+    font-weight: bold;
+}
+
+#error-new-version-detected div a {
+    transition: 0.6s;
+    transition-timing-function: linear;
+    pointer-events: auto;
+}
+
+#error-new-version-detected div a:focus, #error-new-version-detected div a:hover {
+    color: #ccf3ff;
+    transition: 0.6s;
+    transition-timing-function: linear;
+}
+
+#error-new-version-detected div span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    padding: 0 1em;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.text {
+    font-family: Arial, serif;
+    font-size: 12px;
+}
+
+.pickListCellRedLine, .pickListCellRedLineDark {
+    background: #ff6666;
+    font-size: 12px;
+}
